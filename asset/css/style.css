@@ -1,0 +1,79 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #e5e1e1;
+}
+form{
+    position: absolute;
+    top: 102px;
+    left: 135px;
+    display: flex;
+    flex-direction: row;
+}
+input{
+
+    padding: 5px;
+    font-size:2em;
+}
+#text{
+    width: 200px;
+    width:70%;
+    background-color: rgb(28, 28, 78);
+    color: rgb(120, 130, 139);
+}
+#btn{
+    background:#4CAF50;
+    width: 100px;
+}
+div{
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+}
+#parent{
+    position: absolute;
+    top: 152px;
+    left: 135px;
+    width: 445px;
+}
+div input{
+    font-size: 1.3em;
+    color :black;
+    padding: 10px;
+    display: block;
+}
+div label{
+    display: block;
+}
+#grosseDivdu94 {
+    min-width: 100%;
+    min-height: 80px;
+    background-color: #fff;
+    margin: 10px;
+    input{
+        position: absolute;
+        left: 18px;
+        top: 33px;
+      }
+      label{
+        position:absolute;
+        top: 29px;
+        left: 45px;
+      }
+      #poubelle{
+          position: absolute;
+          right: 18px;
+          top: 33px;
+          opacity: 0;
+          cursor: pointer;
+      }
+}
